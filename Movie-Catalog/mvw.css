@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  #020203;
+}
+nav{
+    padding: 10px 5%;
+    height: 10vh;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #e6dfdf;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    text-decoration: none;
+    }
+    .logo .bx {
+        font-size: 35px;
+        color: #f21111;
+    }
+    .war{
+        text-align: center;
+        align-items: center;
+    }
