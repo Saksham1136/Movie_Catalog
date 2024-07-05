@@ -1,1 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Catalog</title>
+    <link rel="stylesheet" href="./movie.css">
+    <!-- Box Icon -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
+    <!-- ionicon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- link swipper's Css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Nav Bar -->
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-camera-movie'></i></i>Movie-Catalog</a>
+       <div class="bx bx-menu" id="menu-icons"></div>
+       <!-- Menu -->
+       <ul class="navbar">
+        <li><a href="#Home" class="home-active"><i class='bx bxs-home'></i>Home</a></li>
+        <li><a href="#movie" class='bx bxs-movie'>Movies</a>
+         <div class="sub-menu-1">
+            <ul>
+               <li><a href="http://127.0.0.1:5500/movielist1.html?">Latest Relaese</a></li>
+               <li><a href="#">Bollywood</a></li>
+               <li><a href="#">Hollywood</a></li>
+            </ul>
+          </div>
+      </li>
+        <li><a href="http://127.0.0.1:5500/movielist2.html">Genre</a>
+      </li>
+        <li><a href="#Coming">Series</a></li>
+       </ul>
+       <a href="#" class="btns"> <i class='bx bxs-user-account'></i>Sign In</a> 
+       <input type="text" placeholder="what's type of movie you want" class="search">
+    </header>
+
+
+    <!-- Home -->
+    <section class="home swiper" id="home">  
+    <div class="swiper-wrapper">
+            <!-- Box 1 -->
+            <div class="swiper-slide container">
+               <img src="./mh2.jpg" alt=""> 
+               <div class="home-text">
+                <span>Mahabharat</span>
+                <h1>MAHABHARAT: <br> KuruKshetra</h1>
+                <a href="http://127.0.0.1:5500/project2.html#" class="btns">Explore Now</a>
+                <a href="http://127.0.0.1:5500/mvw.html" class="play"><i class='bx bx-play'></i>
+                </a>
+               </div>
+            </div>
+           
+            <!-- Box 2 -->
+
+            <div class="swiper-slide container">
+               <img src="./coder2.jpg" alt=""> 
+               <div class="home-text">
+                <span>The Imitation Game</span>
+                <h1 class="intro">The Imitation Game: <br> Rotten Tomatoes</h1>
+                <a href="#" class="btns">Explore Now</a>
+                <a href="#" class="play"><i class='bx bx-play'></i>
+                </a>
+               </div>
+            </div>
+
+            <!-- Box 3 -->
+
+                <div class="swiper-slide container">
+                   <img src="./war.jpg " alt=""> 
+                   <div class="home-text">
+                    <span>Marvel Universe</span>
+                    <h1>Avengers: <br> Infinity-War</h1>
+                    <a href="http://127.0.0.1:5500/infinitiwar.html" class="btns">Explore Now</a>
+                    <a href="http://127.0.0.1:5500/iwarvo.html" class="play"><i class='bx bx-play'></i>
+                    </a>
+                   </div>
+                </div>
+
+                 <!-- Box 4 -->
+
+                    <div class="swiper-slide container">
+                       <img src="./irn.jpg" alt=""> 
+                       <div class="home-text">
+                        <span>Iron Man</span>
+                        <h1>Iron Man: <br> Thinking Faith</h1>
+                        <a href="#" class="btns">Explore Now</a>
+                        <a href="#" class="play"><i class='bx bx-play'></i>
+                        </a>
+                       </div>
+                    </div>     
+    
+                    <!-- Box 5 -->
+
+                        <div class="swiper-slide container">
+                           <img src="./spiderman3.jpg " alt=""> 
+                           <div class="home-text">
+                            <span>SpiderMan</span>
+                            <h1>Spider-Man: <br> No Way Home</h1>
+                            <a href="#" class="btns">Explore Now</a>
+                            <a href="#" class="play"><i class='bx bx-play'></i>
+                            </a>
+                           </div>
+                        </div>    
+
+                     <!-- Box 6 -->
+                        <div class="swiper-slide container">
+                           <img src="./mh3.jpg" alt=""> 
+                           <div class="home-text">
+                            <span>Money-Heist</span>
+                            <!-- <h1>Venom: Let Here <br> Be carnage</h1> -->
+                            <h1 class="intro">Money Heist: <br> The real criminals</h1>
+                            <a href="#" class="btns">Explore Now</a>
+                            <a href="#" class="play"><i class='bx bx-play'></i>
+                            </a>
+                           </div>
+                        </div>
+        </div>
+       
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- link to costom Js -->
+  <script src="./movie.js"></script>
+</body>
+</html>
